@@ -1,0 +1,6 @@
+description: the process is deployed
+headers:
+  Location:
+    schema:
+      type: string
+    description: URL to fetch the processDescription of the deployed process
