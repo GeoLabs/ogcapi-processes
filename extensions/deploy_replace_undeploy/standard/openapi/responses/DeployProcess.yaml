@@ -10,8 +10,4 @@ content:
       content:
         application/json:
       schema:
-        $ref: "https://schemas.opengis.net/ogcapi/processes/part1/1.0/openapi/schemas/swagger/process.yaml"
-    examples:
-      processDecription:
-        summary: A Process Description example
-        externalValue: "https://schemas.opengis.net/ogcapi/processes/part1/1.0/examples/json/ProcessDescription.json"
+        $ref: "../schema/staticIndicator.yaml"
