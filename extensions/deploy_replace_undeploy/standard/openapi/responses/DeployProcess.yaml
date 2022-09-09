@@ -10,4 +10,4 @@ content:
       content:
         application/json:
       schema:
-        $ref: "../schema/staticIndicator.yaml"
+        $ref: "../schemas/staticIndicator.yaml"
