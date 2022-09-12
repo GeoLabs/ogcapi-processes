@@ -3,7 +3,3 @@ content:
   application/json:
     schema:
       $ref: "../schemas/process.yaml"
-    examples:
-      processDecription:
-        summary: A Process Description example
-        externalValue: "../../examples/json/ProcessDescription.json"
