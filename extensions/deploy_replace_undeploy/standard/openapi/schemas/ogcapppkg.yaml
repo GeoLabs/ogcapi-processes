@@ -3,7 +3,7 @@ required:
   - executionUnit
 properties:
   processDescription:
-    $ref: https://raw.githubusercontent.com/opengeospatial/wps-rest-binding/master/core/openapi/schemas/process.yaml
+    $ref: ../../../../../core/openapi/schemas/process.yaml
   executionUnit:
     description: Resource containing an executable or runtime information for executing the process.
     type: array
