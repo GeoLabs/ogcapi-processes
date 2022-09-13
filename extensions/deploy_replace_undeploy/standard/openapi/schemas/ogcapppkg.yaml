@@ -18,7 +18,7 @@ properties:
             cpuMin:
               description: Minimum number of CPUs required to run the process (unit is CPU core).
               type: number
-              minValue: 1
+              minimum: 1
             cpuMax:
               description: Maximum number of CPU dedicated to the process (unit is CPU core)
               type: number
@@ -37,8 +37,8 @@ properties:
             jobTimeout:
               description: Timeout delay for a job execution (in seconds)
               type: number
-            additionalProperties: true
-        additionalProperties: true
+          additionalProperties: true
+      additionalProperties: true
       example:
         type: docker
         image: mydocker/ndvi:latest
