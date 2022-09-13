@@ -12,6 +12,7 @@ properties:
       type: object
       properties:
         config:
+          type: object
           description: Hardware requirements and configuration properties for executing the process.
           properties:
             cpuMin:
