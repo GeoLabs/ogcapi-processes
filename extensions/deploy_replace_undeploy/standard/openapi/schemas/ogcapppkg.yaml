@@ -16,8 +16,7 @@ properties:
           description: Hardware requirements and configuration properties for executing the process.
           properties:
             cpuMin:
-              description: Minimum number of CPUs required to run the process (unit is
-                CPU core).
+              description: Minimum number of CPUs required to run the process (unit is CPU core).
               type: number
               minValue: 1
             cpuMax:
