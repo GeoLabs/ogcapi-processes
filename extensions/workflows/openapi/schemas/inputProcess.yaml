@@ -1,0 +1,10 @@
+allOf:
+  - type: object
+    required:
+      - process
+    properties:
+      process:
+        type: string
+	format: uri-reference
+        description: URI to the process execution end point (ie. /processes/{processId}/execution)
+  - $ref: "nestedProcess.yaml"
