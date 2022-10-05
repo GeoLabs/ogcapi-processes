@@ -3,13 +3,11 @@ properties:
   inputs:
     additionalProperties:
       oneOf:
-        - $ref: "inputCollection.yaml"
         - $ref: "inputProcess.yaml"
         - $ref: "https://schemas.opengis.net/ogcapi/processes/part1/1.0/openapi/schemas/inlineOrRefData.yaml"
         - type: array
           items:
 	    oneOf:
-	      - $ref: "inputCollection.yaml"
 	      - $ref: "inputProcess.yaml"
               - $ref: "https://schemas.opengis.net/ogcapi/processes/part1/1.0/openapi/schemas/inlineOrRefData.yaml"
   outputs:
