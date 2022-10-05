@@ -1,7 +1,7 @@
 openapi: 3.0.0
 info:
   title: Modular OGC API Workflows
-  version: MOAW-0.2
+  version: OGC API - Processes - Part3: Workflow (previously MOAW-0.2)
   description: |-
     WARNING - THIS IS WORK IN PROGRESS\
     Sample GNOSIS Map Server OGC API test implementation.
@@ -224,7 +224,7 @@ paths:
            content:
              application/json:
                schema:
-                 $ref: 'https://raw.githubusercontent.com/opengeospatial/oapi_common/master/collections/openapi/schemas/collectionInfo.yaml'
+                 $ref: 'https://raw.githubusercontent.com/opengeospatial/ogcapi-features/master/core/openapi/schemas/collection.yaml'
              text/html:
                schema:
                  type: string
@@ -2018,3 +2018,5 @@ servers:
      url: https://maps.ecere.com/ogcapi
    - description: SwaggerHub API Auto Mocking
      url: https://virtserver.swaggerhub.com/jerstlouis/MOAW/MOAW-0.1
+   - description: GeoLabs Server
+     url: http://cs2022.geolabs.fr:8012/ogc-api/
