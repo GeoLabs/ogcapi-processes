@@ -1,0 +1,9 @@
+allOf:
+  - type: object
+    required:
+      - process
+    properties:
+      process:
+        type: string
+        description: URI to the process execution end point (ie. /processes/{processId}/execution)
+  - $ref: "https://schemas.opengis.net/ogcapi/processes/part1/1.0/openapi/schemas/execute.yaml"
