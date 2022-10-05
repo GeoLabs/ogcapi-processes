@@ -1,7 +1,7 @@
 openapi: 3.0.0
 info:
   title: Modular OGC API Workflows
-  version: MOAW-0.2
+  version: MOAW-0.3
   description: |-
     WARNING - THIS IS WORK IN PROGRESS\
     Sample GNOSIS Map Server OGC API test implementation.
@@ -201,7 +201,9 @@ paths:
         content:
           application/json:
             schema:
-                $ref: '#/components/schemas/execute'
+              oneOf:
+                - $ref: '#/components/schemas/execute'
+                - $ref: https://raw.githubusercontent.com/GeoLabs/ogcapi-processes/proposal-part3-schema-update/core/openapi/schemas/execute.yaml
             examples:
                elevationContours:
                  $ref: '#/components/examples/elevationContours'
@@ -224,7 +226,7 @@ paths:
            content:
              application/json:
                schema:
-                 $ref: 'https://raw.githubusercontent.com/opengeospatial/oapi_common/master/collections/openapi/schemas/collectionInfo.yaml'
+                 $ref: 'https://raw.githubusercontent.com/opengeospatial/ogcapi-features/master/core/openapi/schemas/collection.yaml'
              text/html:
                schema:
                  type: string
