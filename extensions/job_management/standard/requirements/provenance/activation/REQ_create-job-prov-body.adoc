@@ -1,0 +1,7 @@
+[[req_create_job_prov_body]]
+[requirement]
+====
+[%metadata]
+label:: /req/provenance/create-job-prov-body
+part:: The body of the POST request SHALL contain a JSON object with an attribute `provenance` set to true for the provenance recording to be activated.
+====

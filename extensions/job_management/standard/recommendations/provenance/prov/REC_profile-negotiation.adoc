@@ -1,0 +1,7 @@
+[[rec_job-provenance_prov_profile-negotiation]]
+[recommendation]
+====
+[%metadata]
+label:: /rec/provenance/prov-profile-negotiation
+part:: Profile headers SHOULD be exposed by the server to provide alternate representations of the response.
+====

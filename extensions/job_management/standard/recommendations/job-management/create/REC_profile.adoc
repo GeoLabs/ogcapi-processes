@@ -1,0 +1,7 @@
+[[rec_job-management_create_profile]]
+[recommendation]
+====
+[%metadata]
+label:: /rec/job-management/create-profile
+part:: The `Link` header with `rel="profile"` SHOULD be used to specify the conformance of the request message's content.
+====

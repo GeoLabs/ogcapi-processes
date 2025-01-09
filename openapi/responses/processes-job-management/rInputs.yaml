@@ -1,4 +1,4 @@
-description: Proivenance information about a job.
+description: Provenance information about a job.
 content:
    application/json:
       schema:
